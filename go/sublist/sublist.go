@@ -1,7 +1,6 @@
 package sublist
 
 type List []int
-type Relation string
 
 func (l List) isEqualTo(b []int) bool {
 	if len(l) != len(b) {
